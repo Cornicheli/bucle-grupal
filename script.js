@@ -10,6 +10,16 @@ for (let i=1 ; i <=10; i++){
 acumulando. El ingreso de datos terminara cuando el usuario ingrese un valor 0.*/
 
 
+let numeros = Number (prompt ('Ingrese su número'));
+let acumulacionDeNumeros = 0
+
+
+while ( numeros !== 0 ){
+    numeros = Number (prompt ('Ingrese su número'));
+    acumulacionDeNumeros += numeros
+    console.log(acumulacionDeNumeros);
+}
+
 /*3. JOACO Realizar en juego de adivinar el numero del los ejercicios del tema anterior, en una
 variable guardar un numero que este en el rango 1 - 100. La persona debera poder
 ingresar numeros hasta adivinar el valor que se encuentre en dicha variable. Si el
