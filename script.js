@@ -1,6 +1,10 @@
 /*1 Realizar un programa que permita el ingreso de un numero y muestre su tabla de
 multiplicar (Los primeros 10 multiplos).*/
 
+let numero = Number(prompt('ingrese un numero'))
+for (let i=1 ; i <=10; i++){
+    console.table(`${i} x ${numero}  = ${numero * i}`)
+}
 /*2. Realizar un programa que permita el ingreso de numeros los cuales se tienen que ir
 acumulando. El ingreso de datos terminara cuando el usuario ingrese un valor 0.*/
 
